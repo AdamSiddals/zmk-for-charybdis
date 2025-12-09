@@ -47,7 +47,7 @@
 &kp LSHFT  &kp A   &lt 4 S  &kp D     &lt 3 F    &kp G        &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z   &kp X    &kp C     &kp V      &lt 2 B      &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                             &kp LGUI  &kp LALT   &kp SPACE    &kp ENTER  &kp BSPC
-                                      &mkp RCLK  &mkp RCLK    &mo 1
+                                      &mkp LCLK  &mkp RCLK    &mo 1
             >;
         };
 
