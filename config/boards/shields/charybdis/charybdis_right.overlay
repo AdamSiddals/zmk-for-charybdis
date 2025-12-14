@@ -59,8 +59,6 @@ trackball: trackball@0 {
 
     zephyr,axis-x = <INPUT_REL_X>;
     zephyr,axis-y = <INPUT_REL_Y>;
-    CONFIG_PMW3610_INVERT_X=y
-    CONFIG_PMW3610_INVERT_Y=y
 
     };
 };
