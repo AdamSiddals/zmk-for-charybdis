@@ -86,12 +86,12 @@
 
         Symbol_Layer {
             bindings = <
-&kp F13  &kp F14           &kp F15        &kp F16          &kp F17      &kp F18       &kp F19  &kp F20          &kp F21       &kp F22               &kp F23                &kp F12
-&trans   &kp SINGLE_QUOTE  &kp AMPERSAND  &kp EXCLAMATION  &kp PERCENT  &none         &kp      &kp NON_US_HASH  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp
-&trans   &kp AT_SIGN       &kp SEMICOLON  &kp NON_US_BSLH  &kp SLASH    &none         &none    &kp COMMA        &kp PERIOD    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp
-&trans   &kp PLUS          &kp EQUAL      &kp CARET        &none        &kp           &kp      &kp              &kp           &kp LEFT_BRACE        &kp RBRC               &kp
-                                          &trans           &trans       &trans        &trans   &trans
-                                                           &trans       &kp DELETE    &trans
+&kp F13  &kp F14          &kp F15        &kp F16               &kp F17                &kp F18          &kp F19         &kp F20     &kp F21    &kp F22         &kp F23    &kp F12
+&trans   &kp AT_SIGN      &kp AMPERSAND  &kp AMPERSAND         &kp LS(NUMBER_3)       &kp DOLLAR       &kp UNDERSCORE  &kp HASH    &kp TILDE  &kp PIPE        &kp GRAVE  &kp
+&trans   &kp KP_SUBTRACT  &kp FSLH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON        &kp COMMA       &kp PERIOD  &kp SQT    &kp DQT         &kp QMARK  &kp
+&trans   &kp EQUAL        &kp PLUS       &kp ASTERISK          &kp NON_US_BACKSLASH   &kp SEMICOLON    &kp EXCL        &kp LBKT    &kp RBKT   &kp LEFT_BRACE  &kp RBRC   &kp
+                                         &trans                &trans                 &trans           &trans          &trans
+                                                               &trans                 &kp DELETE       &trans
             >;
         };
     };
