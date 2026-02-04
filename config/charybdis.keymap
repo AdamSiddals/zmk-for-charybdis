@@ -42,12 +42,12 @@
 
         QWERTY {
             bindings = <
-&kp ESC         &kp N1  &kp N2   &kp N3     &kp N4          &kp N5           &kp N6        &kp N7  &kp N8  &kp N9  &kp N0  &kp HOME
-&kp TAB         &kp Q   &kp W    &kp E      &kp R           &kp T            &kp Y         &kp U   &kp I   &kp O   &kp P   &kp END
-&kp LEFT_SHIFT  &kp A   &lt 3 S  &kp D      &kp F           &kp G            &kp H         &kp J   &kp K   &kp L   &none   &kp PAGE_UP
-&kp LEFT_GUI    &kp Z   &kp X    &kp C      &kp V           &lt 2 B          &kp N         &kp M   &none   &none   &none   &kp PAGE_DOWN
-                                 &kp SPACE  &kp LCTRL       &mo 1            &kp LEFT_ALT  &mo 4
-                                            &kp LEFT_SHIFT  &kp BACKSPACE    &kp ENTER
+&kp MINUS                      &kp N1  &kp N2   &kp N3        &kp N4        &kp N5       &kp N6           &kp N7                &kp N8  &kp N9     &kp N0      &kp EQUAL
+&kp LEFT_BRACKET               &kp Q   &kp W    &kp E         &kp R         &kp T        &kp Y            &kp U                 &kp I   &kp O      &kp P       &kp RIGHT_BRACKET
+&kp TAB                        &kp A   &lt 3 S  &kp D         &kp F         &kp G        &kp H            &kp J                 &kp K   &kp L      &none       &kp LC(SQT)
+&mt LC(LCTRL) LC(NON_US_BSLH)  &kp Z   &kp X    &kp C         &kp V         &lt 2 B      &kp B            &kp N                 &kp M   &kp COMMA  &kp PERIOD  &kp SLASH
+                                                &kp LEFT_ALT  &kp SPACE     &kt LCTRL    &kp BACKSPACE    &mt LEFT_SHIFT ENTER
+                                                              &kp LEFT_WIN  &mo 1        &mt LSHFT ENTER
             >;
         };
 
@@ -56,7 +56,7 @@
 &kp F1               &kp F2    &kp F3        &kp F4     &kp F5  &kp F6             &kp F7  &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
 &none                &none     &kp UP_ARROW  &none      &none   &kp LC(LA(TAB))    &none   &none           &msc SCRL_UP    &none            &none    &none
 &kp LS(LC(LA(F12)))  &kp LEFT  &kp DOWN      &kp RIGHT  &none   &none              &none   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none    &none
-&kp LEFT_GUI         &none     &none         &none      &none   &kp LA(LC(B))      &none   &mkp LCLK       &mkp RCLK       &none            &none    &none
+&trans               &none     &none         &none      &none   &kp LA(LC(B))      &none   &mkp LCLK       &mkp RCLK       &none            &none    &none
                                              &trans     &trans  &trans             &trans  &trans
                                                         &trans  &kp DEL            &trans
             >;
